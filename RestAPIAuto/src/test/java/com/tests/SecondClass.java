@@ -17,5 +17,6 @@ public class SecondClass {
 		System.out.println(respObj.asString());
 		Assert.assertTrue("Response code is correct",respObj.statusCode()==200);
 		System.out.println(respObj.getStatusLine());
+		System.out.println(respObj.contentType());
 	}
 }
