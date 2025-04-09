@@ -2,7 +2,6 @@ package com.tests;
 
 import org.junit.Assert;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
